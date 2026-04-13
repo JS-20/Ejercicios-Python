@@ -9,12 +9,22 @@ else:
 
 #condicionales multiples
 
-print("ingrese el dia de la semana")
-dia = input()
+print("ingrese el numero de dia de la semana")
+dia = int(input())
 match dia:
-    case "lunes":
+    case 1:
         print("es lunes")
-    case "martes":
+    case 2:
         print("es martes")
-    case _:
-        print("otro dia")
+    case 3:
+        print("miercoles")
+    case 4:
+        print("jueves") 
+    case 5:
+        print("viernes")    
+    case 6:
+        print("sabado")             
+    case 7:
+        print("domingo")      
+
+#              
